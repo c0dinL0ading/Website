@@ -1,5 +1,62 @@
-p {
-    color: red;
-    width: 500px;
-    border: 2px dotted black
+html {
+    background-color: darkorange;
+    font-size: 15px;
+    font-family: 'Baloo Da 2', cursive;
 }
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: lightblue;
+    padding: 0 150px 150px 150px;
+    border: 5px solid black;
+}
+
+h1 {
+    margin: 0;
+    padding: 1px 0;
+    color: darkorange;
+    border: 5px dashed black;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+}
+
+h2 {
+    color: darkorange;
+    text-decoration: underline black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.imgborder {border: 7px solid red;
+}
+
+.adjustsize {
+    height: auto;
+    width: 500px;
+}
+
+}
+
+.dirty {
+    color: red;
+}
+
+.clean {
+    color: green;
+}
+
+a:hover {
+    color:yellow;
+}
+
